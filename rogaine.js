@@ -363,7 +363,7 @@ function init() {
     canvas = document.querySelector("canvas");
     context = canvas.getContext("2d");
     load_assets([
-        { "var": bg, "url": "rogaine_web_img.png" }
+        { "var": bg, "url": "images/rogaine_web_img.png" }
     ], draw);
     context.fillStyle = "red";
     draw(0);
